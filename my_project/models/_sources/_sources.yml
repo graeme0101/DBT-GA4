@@ -4,8 +4,8 @@ sources:
 
   - name: google_analytics
     description: "Google Analytics 4 export"
-    database: project-id
-    schema: analytics_111111111
+    database: gm-trainiing 
+    schema: ga4_events
     tables:
       - name: events
         identifier: events_*

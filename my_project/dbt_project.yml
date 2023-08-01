@@ -2,12 +2,12 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'gm_project'
+name: 'my_project'
 version: '0.0.1'
 config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'gm_profile'
+profile: 'my_profile'
 
 # These configurations specify where dbt should look for different types of files.
 # The `model-paths` config, for example, states that models in this project can be
@@ -30,7 +30,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # N.B. materialisation settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
-  gm_project:
+  my_project:
     # Config indicated by +
     base:
       +docs:
@@ -62,5 +62,5 @@ tests:
 
 
 vars:
-  gm_project:
+  my_project:
     example_var: DATE('2023-01-31')
