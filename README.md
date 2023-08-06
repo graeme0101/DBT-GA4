@@ -1,4 +1,4 @@
-DBT-GA4
+DBT-GA4 - revised by GM 
 =======
 
 Do you use Google Analytics 4, BigQuery, and DBT?

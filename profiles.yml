@@ -10,7 +10,7 @@ my_profile:
     dev: 
       type: bigquery
       project: GM-trainiing
-      location: AU
+      location: australia-southeast1
       method: service-account
       keyfile: /config/credentials.json
       priority: interactive
@@ -20,7 +20,7 @@ my_profile:
     prod: 
       type: bigquery
       project: GM-trainiing
-      location: AU
+      location: australia-southeast1
       method: service-account
       keyfile: /config/credentials.json
       priority: interactive
@@ -28,5 +28,5 @@ my_profile:
       threads: 1
       timeout_seconds: 300
 
-  target: "{{ env_var('DBT_EXEC_PROFILE') }}" 
-  # target: dev 
+# target: "{{ env_var('DBT_EXEC_PROFILE') }}" 
+  target: dev 
