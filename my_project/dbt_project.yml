@@ -64,3 +64,7 @@ tests:
 vars:
   my_project:
     example_var: DATE('2023-01-31')
+    ua_ga4_stitch_date: DATE('2020-01-31')
+
+
+    
